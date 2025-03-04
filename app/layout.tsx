@@ -52,6 +52,10 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <head>
+        {/* Add the viewport meta tag here */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body className="max-w-xxl mx-4 px-8 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 flex flex-col md:px-0">
           <Navbar />
