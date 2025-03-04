@@ -1,20 +1,24 @@
-import { BlogPosts } from 'app/components/posts'
-
 export default function Page() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
+    <section className="prose">
+      <div className="flex items-center space-x-8">
+        {/* Text column on the left */}
+        <div className="flex flex-col items-start space-y-4">
+          <h1 className="text-6xl font-semibold tracking-tighter">
+            Hi, I'm Zach.
+          </h1>
+          <p className="text-5xl">
+            {`I'm a student, developer, and musician.`}
+          </p>
+        </div>
+
+        {/* Image on the right */}
+        <img src="rounded-headshot.png" width={600} alt="Zach's Headshot" />
+      </div>
+
+      <div className="py-4"></div>
+      <div className="text-4xl">
+        Experiences
       </div>
     </section>
   )
