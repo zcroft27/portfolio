@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="pt-20 pb-0 mb-16">
       <div className="w-full h-px bg-gray-300 dark:bg-gray-700"></div>
       <ul className="font-sm mt-8 flex flex-row space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-[#e56b6f]">
-        <li className="flex items-center">
+        <li className="hover:scale-105 flex items-center">
           <a
             className="dark: text-[#0077B5] transition-all hover:text-neutral-800 dark:hover:text-neutral-100 flex items-center transition-all hover:text-[#e0e1dd] dark:hover:text-[#e0e1dd]"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default function Footer() {
             <img src="github.png" width={30}></img>
           </a>
         </li>
-        <li className="flex items-center">
+        <li className="hover:scale-105 flex items-center">
           <a
             className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100 flex items-center transition-all hover:text-[#e0e1dd] dark:hover:text-[#e0e1dd]"
             rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function Footer() {
             <img src="linkedin.png" width={30}></img>
           </a>
         </li>
-        <li className="flex items-center">
+        <li className="hover:scale-105 flex items-center">
           <a
             className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100 flex items-center transition-all hover:text-[#e0e1dd] dark:hover:text-[#e0e1dd]"
             target="_blank"

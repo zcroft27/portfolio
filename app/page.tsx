@@ -1,3 +1,5 @@
+import Snapshot from "./components/Experience/experience-snapshot"
+
 export default function Page() {
   return (
     <section className="prose">
@@ -7,7 +9,7 @@ export default function Page() {
             Hi, I'm Zach.
           </h1>
           <p className="text-2xl lg:text-5xl">
-            {`I'm a student, developer, and musician.`}
+            {`I'm a passionate learner, engineer, and musician.`}
           </p>
         </div>
         <img src="rounded-headshot.png" className="w-[750px] lg:w-[600px]" alt="Zach's Headshot" />
@@ -17,6 +19,7 @@ export default function Page() {
       <div className="text-4xl">
         Experiences
       </div>
+      <Snapshot title="Student" organization="Northeastern University" />
     </section>
   )
 }
