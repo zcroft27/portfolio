@@ -18,7 +18,6 @@ export default function Page() {
             <h1 className="text-4xl lg:text-6xl font-semibold tracking-tighter">
                 Roles
             </h1>
-            <Snapshot title="Student" organization="Northeastern University" />
         </>
     )
 }
