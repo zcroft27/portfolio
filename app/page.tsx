@@ -23,7 +23,7 @@ export default function Page() {
       <div className="py-4"></div>
 
       {/* Centered experience section on mobile */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-stretch">
         <div className="text-4xl pb-8 text-center w-full lg:w-[80%] mx-auto lg:text-left">
           Experiences
         </div>

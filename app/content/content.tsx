@@ -1,12 +1,10 @@
 const content = {
     headshot: { src: "rounded-headshot.png" },
     experiences: [
-        { title: "CS Student", org: "Northeastern University", logo: "northeastern.png" },
-        { title: "Tech Lead", org: "Generate Product Development", logo: "generate.png" },
-        { title: "Musician", org: "Northeastern Wind Ensemble", logo: "northeastern.png" },
-        { title: "CS Student", org: "Northeastern University", logo: "northeastern.png" },
-        { title: "CS Student", org: "Northeastern University", logo: "northeastern.png" },
-        { title: "CS Student", org: "Northeastern University", logo: "java.png" },
+        { title: "Computer Science Student", org: "Northeastern University", logo: "northeastern.png" },
+        { title: "Technical Lead", org: "Generate Product Development", logo: "generate.png" },
+        { title: "Musician", org: "Northeastern Wind Ensemble", logo: "nuwe.png" },
+        { title: "Computer Systems TA", org: "Khoury College of Computer Sciences", logo: "khoury.jpg" },
     ],
     skills: [
         { skill: "Java", image: "java.png" },
