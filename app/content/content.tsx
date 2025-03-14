@@ -3,8 +3,12 @@ const content = {
     experiences: [
         { title: "Computer Science Student", org: "Northeastern University", logo: "northeastern.png" },
         { title: "Technical Lead", org: "Generate Product Development", logo: "generate.png" },
-        { title: "Musician", org: "Northeastern Wind Ensemble", logo: "nuwe.png" },
+        { title: "Software Developer Co-op", org: "Smartleaf", logo: "smartleaf_blue.webp" },
         { title: "Computer Systems TA", org: "Khoury College of Computer Sciences", logo: "khoury.jpg" },
+    ],
+    archived_experiences: [
+        { title: "Software Developer Co-op", org: "Smartleaf", logo: "smartleaf.webp" },
+        { title: "Musician", org: "Northeastern Wind Ensemble", logo: "nuwe.png" },
     ],
     skills: [
         { skill: "Java", image: "java.png" },
